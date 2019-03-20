@@ -1,0 +1,26 @@
+[user]
+    email = eric.coleman@accenture.com
+    name = Eric Coleman
+[core]
+    editor = /usr/bin/vim
+    excludesfile = ~/.gitignore-global
+[push]
+    default = simple
+[alias]
+    stat  = status
+    tatus = status
+    st    = status
+    nuke  = reset --hard HEAD
+    alias = config --get-regexp ^alias\\.
+    sl = "!f() { git log --oneline -n ${1-5}; }; f"
+    cm    = commit -m
+    aa    = add --all
+    dc    = diff --cached
+    discard-untracked = clean -fx
+    ce = commit --amend --no-edit
+    lg = log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit
+[status]
+    showUntrackedFiles = all
+[pull]
+    rebase = true
+
