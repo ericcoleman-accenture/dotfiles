@@ -98,3 +98,4 @@ export TERM=xterm-256color
 [ -f $HOME/.asdf/asdf.sh ] && source $HOME/.asdf/asdf.sh
 [ -f $HOME/.asdf/completions/asdf.bash ] && source $HOME/.asdf/completions/asdf.bash
 [ -f $HOME/.common-shell-env ] && source $HOME/.common-shell-env
+
