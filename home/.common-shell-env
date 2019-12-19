@@ -5,6 +5,10 @@ export PATH=${PATH}:/usr/local/bin
 export PATH="$PATH:$HOME/bin"
 export PATH="/opt/local/bin:/opt/local/sbin:$PATH"
 export PATH="$PATH:$HOME/.poetry/bin"
+export PATH=$PATH:/usr/local/texlive/2019basic/bin/x86_64-darwin
+export PATH=$PATH:/Library/Frameworks/Mono.framework/Versions/Current/bin
+
+
 
 #eval "$(pyenv init -)"
 [ -f ~/.asdf/asdf.sh ] && source ${HOME}/.asdf/asdf.sh

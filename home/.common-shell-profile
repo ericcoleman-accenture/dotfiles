@@ -28,6 +28,7 @@ alias gs='git status'
 alias gits="git"
 alias notes="cd ~/notes"
 alias e="emacsclient -n"
+alias dc="docker-compose"
 
 function quick-clone {
     local clone_url=${1}
